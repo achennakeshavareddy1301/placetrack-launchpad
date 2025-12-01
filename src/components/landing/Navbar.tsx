@@ -34,11 +34,11 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <a href="#" className="flex items-center group my-4">
+          <a href="#" className="flex items-center group my-6">
             <img 
               src={placetrackLogo} 
               alt="PlaceTrack" 
-              className="h-12 w-auto transition-transform duration-300 group-hover:scale-105"
+              className="h-16 w-auto rounded-xl transition-transform duration-300 group-hover:scale-105"
             />
           </a>
 
