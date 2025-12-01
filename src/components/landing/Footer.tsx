@@ -14,11 +14,11 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logo & Description */}
           <div className="flex flex-col items-center md:items-start gap-3">
-            <a href="#" className="flex items-center group">
+            <a href="#" className="flex items-center group my-3">
               <img 
                 src={placetrackLogo} 
                 alt="PlaceTrack" 
-                className="h-7 w-auto transition-transform duration-300 group-hover:scale-105"
+                className="h-10 w-auto transition-transform duration-300 group-hover:scale-105"
               />
             </a>
             <p className="text-sm text-muted-foreground text-center md:text-left max-w-xs">
