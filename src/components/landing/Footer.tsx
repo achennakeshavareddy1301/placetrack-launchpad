@@ -1,3 +1,5 @@
+import placetrackLogo from '@/assets/placetrack-logo.png';
+
 const footerLinks = [
   { label: 'About', href: '#' },
   { label: 'Contact', href: '#contact' },
@@ -12,13 +14,12 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logo & Description */}
           <div className="flex flex-col items-center md:items-start gap-3">
-            <a href="#" className="flex items-center gap-2 group">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-purple flex items-center justify-center shadow-glow transition-transform duration-300 group-hover:scale-110">
-                <span className="text-primary-foreground font-bold text-sm">P</span>
-              </div>
-              <span className="font-display font-bold text-lg text-foreground">
-                PlaceTrack
-              </span>
+            <a href="#" className="flex items-center group">
+              <img 
+                src={placetrackLogo} 
+                alt="PlaceTrack" 
+                className="h-7 w-auto transition-transform duration-300 group-hover:scale-105"
+              />
             </a>
             <p className="text-sm text-muted-foreground text-center md:text-left max-w-xs">
               The all-in-one placement management OS for ambitious students.

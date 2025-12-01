@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
+import placetrackLogo from '@/assets/placetrack-logo.png';
 
 const navLinks = [
   { label: 'How It Works', href: '#how-it-works' },
@@ -33,13 +34,12 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-purple flex items-center justify-center shadow-glow transition-transform duration-300 group-hover:scale-110">
-              <span className="text-primary-foreground font-bold text-sm">P</span>
-            </div>
-            <span className="font-display font-bold text-xl text-foreground">
-              PlaceTrack
-            </span>
+          <a href="#" className="flex items-center group">
+            <img 
+              src={placetrackLogo} 
+              alt="PlaceTrack" 
+              className="h-8 w-auto transition-transform duration-300 group-hover:scale-105"
+            />
           </a>
 
           {/* Desktop Navigation */}
