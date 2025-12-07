@@ -18,7 +18,7 @@ export function Footer() {
               <img 
                 src={placetrackLogo} 
                 alt="PlaceTrack" 
-                className="h-14 w-auto rounded-xl transition-transform duration-300 group-hover:scale-105"
+                className="h-12 w-12 rounded-full object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </a>
             <p className="text-sm text-muted-foreground text-center md:text-left max-w-xs">
