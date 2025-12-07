@@ -38,7 +38,7 @@ export function Navbar() {
             <img 
               src={placetrackLogo} 
               alt="PlaceTrack" 
-              className="h-16 w-auto rounded-xl transition-transform duration-300 group-hover:scale-105"
+              className="h-14 w-14 rounded-full object-cover transition-transform duration-300 group-hover:scale-105"
             />
           </a>
 
